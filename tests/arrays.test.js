@@ -1,7 +1,9 @@
+import {describe,test,expect} from 'vitest';
 import {capitalizeArrays,
     calcFinalGrade,
     calcAverageCalories
 } from '../src/arrays.js';
+
 
 /* Dada un array de nombre de ciudades, devolver un array con la primera letra de cada ciudad en mayúsculas.
 
